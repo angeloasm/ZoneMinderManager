@@ -26,7 +26,12 @@ class ZoneMinderManager
 
     private $secretKey = ""; // SECRET KEY OF ZM SERVER
 
+    public function __construct($secretKey){
+        $this->secretKey = $secretKey;
+    }
+
     /**
+     * 
      * Valid for the API version below of 1.32.0
      * @param $username
      * @param $password
