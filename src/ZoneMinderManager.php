@@ -1,11 +1,12 @@
 <?php
+namespace axc\ZMManager;
 /**
  * User: axc
  * Date: 24/09/18
  * Time: 14.04
  */
 require_once __DIR__ . '/../vendor/autoload.php'; // Autoload files using Composer autoload
-namespace axc\ZMManager;
+
 
 
 use Unirest\Request;
